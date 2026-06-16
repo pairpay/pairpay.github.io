@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PairPay — Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
 
+    <!-- Header -->
+    <header class="header">
+      <img src="pairpay app icon.jpg" alt="PairPay" class="logo-mark">
+      <h1>PairPay Support</h1>
+      <p class="subtitle">Help &amp; frequently asked questions</p>
+    </header>
+
+    <!-- Contact -->
+    <div class="contact-card">
+      <p>Have a question, found a bug, or want to suggest a feature?<br>We'd love to hear from you.</p>
+      <a href="mailto:pairpayteam@gmail.com" class="email-link">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="4" width="16" height="12" rx="2"/>
+          <path d="M2 4l8 6 8-6"/>
+        </svg>
+        pairpayteam@gmail.com
+      </a>
+    </div>
+
+    <!-- FAQ -->
+    <div class="section">
+      <p class="section-label">Common Questions</p>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I add an expense?
+            <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l5 5 5-5"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Tap the + button, pick a category, and enter the amount. In Split mode, choose how the expense should be split between you. In Shared mode, select the payment method you used. Either way, the expense is logged as paid by you — hit save and you're done.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I settle up?
+            <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l5 5 5-5"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>In Split mode, head to the Consolidated tab and tap "Pay Up" to log a payment and reset your shared balance. In Shared mode, you reimburse yourself per payment method by logging a withdrawal instead — see below.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I log a withdrawal? (Shared mode)
+            <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l5 5 5-5"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>In Shared mode, when you're ready to reimburse yourself from your shared account, tap the withdrawal option for a payment method on the main screen. This records what you pulled from the shared account and resets that method's running balance to zero.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Can I edit or delete an expense?
+            <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l5 5 5-5"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>You can edit or delete any unsettled expense you logged yourself — your partner's expenses are always read-only. In Split mode, settled expenses are locked. In Shared mode, any expense included in a withdrawal is permanently frozen; corrections should be logged as a new expense.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How do I connect with my partner?
+            <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l5 5 5-5"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>During setup, one of you generates an invite code and shares it with your partner. Your partner enters the code to link your accounts. Once connected, you both see the same expenses and balances in real time.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Can I switch between Split and Shared mode?
+            <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l5 5 5-5"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes — go to Account Settings to switch modes at any time. Your existing records stay intact when you switch, so nothing gets deleted.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Is my financial data secure?
+            <svg class="faq-chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l5 5 5-5"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>PairPay stores data securely using Firebase with authentication. Your expense data is only visible to you and your linked partner.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        PairPay is built by an indie developer.<br>
+        Your feedback means everything — thank you for your support.<br><br>
+        Last updated: June 2026
+      </p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
